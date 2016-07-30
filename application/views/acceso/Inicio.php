@@ -502,7 +502,7 @@
         <script src="<?php echo base_url() ?>frontend/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
         
         <!-- Morris.js charts -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+        <script src="<?php echo base_url() ?>frontend/plugins/morris/raphael-min.js"></script>
         <script src="<?php echo base_url() ?>frontend/plugins/morris/morris.min.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(function () 
