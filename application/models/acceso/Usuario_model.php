@@ -69,9 +69,10 @@ class Usuario_model extends CI_Model {
     public function es_lecturista($idUsuario) 
     {
         $query = $this->db->query('SELECT "Lecturista".*,"Usuario".* FROM "Lecturista" JOIN "Usuario" ON "LtaUsrId" = "UsrId" WHERE "UsrId" = ?  AND "LtaEli" = FALSE', array($idUsuario));
-        if(!empty($query->row_array()))
+        $esLecturista = $query->row_array();
+        if(!empty($esLecturista))
         {
-            return $query->row_array();
+            return $esLecturista;
         }
         else
         {

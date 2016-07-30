@@ -29,8 +29,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-//EN HEROKU / LINUX 
+//EN HEROKU / LINUX - DEBIAN
 //$config['base_url'] = 'https://scot-b.herokuapp.com/';
+
 
 //EN OPENSHIFT / LINUX RED HAT
 $config['base_url'] = 'http://v1-scotb.rhcloud.com';
