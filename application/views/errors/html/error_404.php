@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 if (!function_usable('base_url')){
     //function base_url(){ return 'http://'.$_SERVER['SERVER_NAME'].'/scot';}
-    function base_url(){ return 'http://scotv1.herokuapp.com/';}
+    function base_url(){ return 'https://scot-b.herokuapp.com/';}
 }
 ?>
 <!DOCTYPE html>

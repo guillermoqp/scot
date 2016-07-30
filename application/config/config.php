@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 //EN HEROKU / LINUX 
-$config['base_url'] = 'http://scotv1.herokuapp.com/';
+$config['base_url'] = 'https://scot-b.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
