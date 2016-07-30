@@ -28,8 +28,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].':81/scot';
 
 
+
 //EN HEROKU / LINUX 
-$config['base_url'] = 'https://scot-b.herokuapp.com/';
+//$config['base_url'] = 'https://scot-b.herokuapp.com/';
+
+//EN OPENSHIFT / LINUX RED HAT
+$config['base_url'] = 'http://v1-scotb.rhcloud.com';
 
 /*
 |--------------------------------------------------------------------------
