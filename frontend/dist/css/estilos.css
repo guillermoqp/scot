@@ -1,0 +1,254 @@
+/*@font-face{
+    font-family:"Trade";
+    src:url("../fonts/MyriadPro-Regular.otf");
+}
+*/
+#fondo
+{
+background: url(../img/fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#hr
+{
+background-color: #ccc;
+height: 1px;
+}
+
+.nivel1
+{
+    background: #88b1d9;
+    font-weight: bold;
+}
+
+.nivel2
+{
+    padding-left: 20px!important;
+}
+
+.nivel2desc
+{
+    text-align: justify;
+}
+
+.nivel3checks{
+    padding-top: 0px!important;
+    border-top: 0px!important;
+    padding-left: 30px!important;
+}
+
+/* Boton Subir Archivos*/
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    /* margin: 10px; */
+} 
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#title-sic
+{
+    font-family: 'Trade';
+    text-transform: uppercase;
+    font-size: 22px !important;
+    color: #356AA0;
+}
+
+#footer{
+    background:#6c7988;
+    width:100%;
+    height: 80px;
+    position:fixed;
+    bottom: -1px;
+    
+}
+
+#footer1
+{
+    margin-top: 3px !important;
+    color: #FFF;
+    font-family: 'Trade';
+    font-style: normal;
+    font-size: 17px !important;
+}
+
+@media only screen and (max-width:420px)
+{
+    #footer1 {font-size: 12px !important;}
+}
+
+/*********************** Footer ¨***************************/
+
+
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin-top: -0px !important;
+}
+.social-nav li {
+  display: inline-block;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 32px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+.model-2 a {
+  overflow: hidden;
+  font-size: 16px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.model-2 a:hover {
+  background: #fff;
+  text-shadow: 0px 0px #d5d5d5, 1px 1px #d5d5d5, 2px 2px #d5d5d5, 3px 3px #d5d5d5, 4px 4px #d5d5d5, 5px 5px #d5d5d5, 6px 6px #d5d5d5, 7px 7px #d5d5d5, 8px 8px #d5d5d5, 9px 9px #d5d5d5, 10px 10px #d5d5d5, 11px 11px #d5d5d5, 12px 12px #d5d5d5, 13px 13px #d5d5d5, 14px 14px #d5d5d5, 15px 15px #d5d5d5, 16px 16px #d5d5d5, 17px 17px #d5d5d5, 18px 18px #d5d5d5, 19px 19px #d5d5d5, 20px 20px #d5d5d5, 21px 21px #d5d5d5, 22px 22px #d5d5d5, 23px 23px #d5d5d5, 24px 24px #d5d5d5, 25px 25px #d5d5d5, 26px 26px #d5d5d5, 27px 27px #d5d5d5, 28px 28px #d5d5d5, 29px 29px #d5d5d5, 30px 30px #d5d5d5;
+}
+.model-2 .twitter {
+  background: #00ACED;
+  text-shadow: 0px 0px #0087ba, 1px 1px #0087ba, 2px 2px #0087ba, 3px 3px #0087ba, 4px 4px #0087ba, 5px 5px #0087ba, 6px 6px #0087ba, 7px 7px #0087ba, 8px 8px #0087ba, 9px 9px #0087ba, 10px 10px #0087ba, 11px 11px #0087ba, 12px 12px #0087ba, 13px 13px #0087ba, 14px 14px #0087ba, 15px 15px #0087ba, 16px 16px #0087ba, 17px 17px #0087ba, 18px 18px #0087ba, 19px 19px #0087ba, 20px 20px #0087ba, 21px 21px #0087ba, 22px 22px #0087ba, 23px 23px #0087ba, 24px 24px #0087ba, 25px 25px #0087ba, 26px 26px #0087ba, 27px 27px #0087ba, 28px 28px #0087ba, 29px 29px #0087ba, 30px 30px #0087ba;
+}
+.model-2 .twitter:hover {
+  color: #00ACED;
+}
+.model-2 .facebook {
+  background: #3B579D;
+  text-shadow: 0px 0px #2d4278, 1px 1px #2d4278, 2px 2px #2d4278, 3px 3px #2d4278, 4px 4px #2d4278, 5px 5px #2d4278, 6px 6px #2d4278, 7px 7px #2d4278, 8px 8px #2d4278, 9px 9px #2d4278, 10px 10px #2d4278, 11px 11px #2d4278, 12px 12px #2d4278, 13px 13px #2d4278, 14px 14px #2d4278, 15px 15px #2d4278, 16px 16px #2d4278, 17px 17px #2d4278, 18px 18px #2d4278, 19px 19px #2d4278, 20px 20px #2d4278, 21px 21px #2d4278, 22px 22px #2d4278, 23px 23px #2d4278, 24px 24px #2d4278, 25px 25px #2d4278, 26px 26px #2d4278, 27px 27px #2d4278, 28px 28px #2d4278, 29px 29px #2d4278, 30px 30px #2d4278;
+}
+.model-2 .facebook:hover {
+  color: #3B579D;
+}
+.model-2 .google-plus {
+  background: #DD4A3A;
+  text-shadow: 0px 0px #c23122, 1px 1px #c23122, 2px 2px #c23122, 3px 3px #c23122, 4px 4px #c23122, 5px 5px #c23122, 6px 6px #c23122, 7px 7px #c23122, 8px 8px #c23122, 9px 9px #c23122, 10px 10px #c23122, 11px 11px #c23122, 12px 12px #c23122, 13px 13px #c23122, 14px 14px #c23122, 15px 15px #c23122, 16px 16px #c23122, 17px 17px #c23122, 18px 18px #c23122, 19px 19px #c23122, 20px 20px #c23122, 21px 21px #c23122, 22px 22px #c23122, 23px 23px #c23122, 24px 24px #c23122, 25px 25px #c23122, 26px 26px #c23122, 27px 27px #c23122, 28px 28px #c23122, 29px 29px #c23122, 30px 30px #c23122;
+}
+.model-2 .google-plus:hover {
+  color: #DD4A3A;
+}
+.model-2 .linkedin {
+  background: #007BB6;
+  text-shadow: 0px 0px #005983, 1px 1px #005983, 2px 2px #005983, 3px 3px #005983, 4px 4px #005983, 5px 5px #005983, 6px 6px #005983, 7px 7px #005983, 8px 8px #005983, 9px 9px #005983, 10px 10px #005983, 11px 11px #005983, 12px 12px #005983, 13px 13px #005983, 14px 14px #005983, 15px 15px #005983, 16px 16px #005983, 17px 17px #005983, 18px 18px #005983, 19px 19px #005983, 20px 20px #005983, 21px 21px #005983, 22px 22px #005983, 23px 23px #005983, 24px 24px #005983, 25px 25px #005983, 26px 26px #005983, 27px 27px #005983, 28px 28px #005983, 29px 29px #005983, 30px 30px #005983;
+}
+.model-2 .linkedin:hover {
+  color: #007BB6;
+}
+.model-2 .pinterest {
+  background: #CB2026;
+  text-shadow: 0px 0px #9f191e, 1px 1px #9f191e, 2px 2px #9f191e, 3px 3px #9f191e, 4px 4px #9f191e, 5px 5px #9f191e, 6px 6px #9f191e, 7px 7px #9f191e, 8px 8px #9f191e, 9px 9px #9f191e, 10px 10px #9f191e, 11px 11px #9f191e, 12px 12px #9f191e, 13px 13px #9f191e, 14px 14px #9f191e, 15px 15px #9f191e, 16px 16px #9f191e, 17px 17px #9f191e, 18px 18px #9f191e, 19px 19px #9f191e, 20px 20px #9f191e, 21px 21px #9f191e, 22px 22px #9f191e, 23px 23px #9f191e, 24px 24px #9f191e, 25px 25px #9f191e, 26px 26px #9f191e, 27px 27px #9f191e, 28px 28px #9f191e, 29px 29px #9f191e, 30px 30px #9f191e;
+}
+.model-2 .pinterest:hover {
+  color: #CB2026;
+}
+
+
+/***************************************** cuerpo *************************/
+
+/*
+#datos-recibos
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+
+
+#fecha,#fechaActual,#txt-suministro,#suministro,#txt-nombre,#Nombre,#datos-recibos
+{
+    font-family: 'Trade';
+    font-style: normal;
+    font-size: 18px;
+}
+
+#fecha-corte,#fecha-vencimiento
+{
+    margin-top: 20px;
+    background: #666 ;
+    color: #FFF;
+    font-family: 'Trade';
+    font-style: normal;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 360px) {
+
+   #fecha { font-size: 12px; }
+   #fechaActual { font-size: 12px; }
+   #txt-suministro { font-size: 12px; }
+   #suministro{ font-size: 12px; }
+   #txt-nombre { font-size: 12px; }
+   #Nombre { font-size: 12px; }
+   #datos-recibos { font-size: 16px;}
+   #fecha-corte { font-size: 14px;}
+   #fecha-vencimiento { font-size: 14px;}
+   #img-logo{margin-top: 10px !important}
+    
+
+}
+
+@media only screen and (max-width:765px)
+{
+    .navbar-top-links .dropdown-user {left: 30px;}
+    .navbar-top-links .dropdown-alerts{margin-left:-13px }
+}
+
+
+/*************************************mapa google *************/
+/*
+#map
+    {
+        display: block;
+        width: 50%;
+        float: left;
+        height: 550px;
+        margin: 2em auto;
+        /*margin: 3em auto;*/
+/*        -moz-box-shadow: 0px 5px 10px #ccc;
+        -webkit-box-shadow: 0px 5px 10px #ccc;
+        box-shadow: 0px 5px 10px #ccc;
+    }
+
+*/
+
+
+.scrollable{
+    display: block;
+    overflow-x: scroll;
+}
+.borderless{
+    border: 0px;
+}
